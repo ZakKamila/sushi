@@ -1,0 +1,12 @@
+C:\Users\bbarz\Desktop\sushi\клиент\клиент\bin\Debug\клиент.exe.config
+C:\Users\bbarz\Desktop\sushi\клиент\клиент\bin\Debug\клиент.exe
+C:\Users\bbarz\Desktop\sushi\клиент\клиент\bin\Debug\клиент.pdb
+C:\Users\bbarz\Desktop\sushi\клиент\клиент\obj\Debug\клиент.csprojAssemblyReference.cache
+C:\Users\bbarz\Desktop\sushi\клиент\клиент\obj\Debug\клиент.Form1.resources
+C:\Users\bbarz\Desktop\sushi\клиент\клиент\obj\Debug\клиент.Menu.resources
+C:\Users\bbarz\Desktop\sushi\клиент\клиент\obj\Debug\клиент.Properties.Resources.resources
+C:\Users\bbarz\Desktop\sushi\клиент\клиент\obj\Debug\клиент.csproj.GenerateResource.cache
+C:\Users\bbarz\Desktop\sushi\клиент\клиент\obj\Debug\клиент.csproj.CoreCompileInputs.cache
+C:\Users\bbarz\Desktop\sushi\клиент\клиент\obj\Debug\клиент.exe
+C:\Users\bbarz\Desktop\sushi\клиент\клиент\obj\Debug\клиент.pdb
+C:\Users\bbarz\Desktop\sushi\клиент\клиент\obj\Debug\клиент.Order.resources

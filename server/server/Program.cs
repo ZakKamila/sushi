@@ -19,33 +19,27 @@ namespace server
             {
                 case "add":
                     {
+                        if (ord == null)
+                            ord = new List<position>();
                         ord.Add(new position(edit[0], Convert.ToInt32(edit[1])));
                     }
                     break;
                 case "view":
                     {
+                        if (ord == null)
+                            ord = new List<position>();
                         string str = "";
 
                         foreach (var item in ord)
                         {
-                            str += $"@{item.title}#{item.cost.ToString()}";
+                            str += $"{item.title}   Цена:{item.cost.ToString()}@";
                         }
+                        Console.WriteLine(str+"\n");
                         return (Encoding.UTF8.GetBytes(str));
                     }
                 case "delall":
                     {
                         ord = null;
-                    }
-                    break;
-                case "del":
-                    {
-                        ord.Remove(ord.Find(x => x.title == edit[0]));
-                    }
-                    break;
-                case "edit":
-                    {
-                        ord.Remove(ord.Find(x => x.title == edit[0]));
-                        ord.Add(new position(edit[0], Convert.ToInt32(edit[1])));
                     }
                     break;
                 case "price":
@@ -57,6 +51,14 @@ namespace server
                             price += Convert.ToInt32(item.cost);
                         }
                         return (Encoding.UTF8.GetBytes(price.ToString()));
+                    }
+                case "check":
+                    {
+                        if (ord == null)
+                        {
+                            return (Encoding.UTF8.GetBytes("no"));
+                        }
+                        return (Encoding.UTF8.GetBytes("yes"));
                     }
                 default:
                     break;
