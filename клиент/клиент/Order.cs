@@ -76,13 +76,12 @@ namespace клиент
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string str = Exchange("127.0.0.1", 8888, $"check@we");
-            if (str == "yes")
+            if (textBox2.Text != "0 руб")
             {
                 Exchange("127.0.0.1", 8888, $"delall@we");
                 MessageBox.Show("оплата прошла успешно!");
                 richTextBox1.Text = "";
-                textBox2.Text = "";
+                textBox2.Text = "0 руб";
             }
             else
                 MessageBox.Show("в корзине пусто");
